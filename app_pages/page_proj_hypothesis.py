@@ -29,16 +29,45 @@ def page_project_hypothesis_body():
         f"pucker and twist. Newly developed leaves on new shoots become "
         f"progressively smaller, are often pale, and may be distorted."
     )
+    
+    st.write('---')
+    
+    st.warning(
+        f"**Hypotheses**\n\n"
+        f"* There are visible pattern differences between healthy "
+        f"and infected cherry leaf images that can be used to differentiate"
+        f" between healthy and powdery mildew-affected leaves. \n\n"
+        f"* There are distinct color and nuanced shape differences "
+        f"between healthy and powdery mildew-infected cherry leaves. \n\n"
+        f"* A machine learning model can be developed using the provided "
+        f"image dataset to predict whether a leaf is infected with powdery mildew **97%** acccuracy."
+    )
 
     st.success(
-        f" The Image Montage shows the apparent difference between "
+        f"**Validation**\n\n"
+        f"* The Image Montage shows the apparent difference between "
         f"healthy and powdery mildew-infected leaves. \n\n"
-        f"Average, Variability, and Difference Images confirmed "
+        f"* Average, Variability, and Difference Images confirmed "
         f"the hypothesis by showing color differences within the "
         f"center of each leaf image, yet there are no clear "
         f"patterns to identify them by shape. \n\n"
-        f"ML pipeline performance evaluation shows that it"
+        f"* ML pipeline performance evaluation shows that it"
         f" differentiates a healthy leaf from an infected "
-        f"leaf with 99% accuracy."
+        f"leaf with **99%** accuracy."
     )
     
+    st.write('---')
+    
+    st.write(
+        f"* 1. The client is interested in conducting a study "
+        f"to visually differentiate a cherry leaf that is healthy "
+        f"from one that contains powdery mildew. \n"
+        f"* 2. The client is interested in telling whether a given cherry"
+        f" leaf is infected by powdery mildew or not."
+    )
+    
+    st.write (
+        f"> **Client bussines requirements are fullfilled.**"
+    )
+
+    st.write('---')
