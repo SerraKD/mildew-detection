@@ -13,7 +13,8 @@ def page_leaves_visualizer_body():
     st.header("Cherry Leaf Visualizer")
 
     st.info(
-        f"The client is interested in conducting a study that visually "
+        f"**Business Requirement 1**\n"
+        f"* The client is interested in conducting a study that visually "
         f"differentiates a **powdery mildew** infected leaf from a **healthy** leaf."
     )
     version = 'v1'

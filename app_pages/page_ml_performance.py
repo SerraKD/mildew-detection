@@ -18,8 +18,8 @@ def page_ml_performance_metrics():
     average_image_size = plt.imread(f"outputs/{version}/avg_img_size.png")
     st.image(average_image_size, caption='Average Image Size - Width average: 256 Height average: 256')
     st.warning(
-        f"* The average image size in the provided dataset is: \n\n"
-        f"* Width average: 256px"
+        f"The average image size in the provided dataset is: \n\n"
+        f"* Width average: 256px \n"
         f"* Height average: 256px"
     )
     st.write("---")
