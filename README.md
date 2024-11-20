@@ -98,19 +98,18 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Credits
 
-- In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism.
-- You can break the credits section up into Content and Media, depending on what you have included in your project.
-
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- The powdery mildew information text for the Project summary page was taken from [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew).
+- The detailed explanation of powdery mildew disease taken from [Washington State University Tree Fruit](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1).
+- The Malaria Detector project code has been used as the study and reference material - [Malaria Detector](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/).
+- The Churnometer project provided by Code Institute has been the code that was used to learn the concepts used in this project. -
+[Churnometer](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DDA101+2021_T4/courseware/bba260bd5cc14e998b0d7e9b305d50ec/c83c55ea9f6c4e11969591e1b99c6c35/).
+- Plant Disease Detection Using Deep learning by Anjaneya Teja Kalvakolanu was used as study material for better understanding of ML performance regarding to plant desease detection. - [Plant Disease Detection Using Deep learning](https://arxiv.org/pdf/2003.05379v1)
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
+- The images used in this project are from the cherry-leaves kaggle dataset provided by [CI cherry_leaves](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 
 ## Acknowledgements (optional)
 
