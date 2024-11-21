@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 def page_summary_body():
     # https://en.wikipedia.org/wiki/Powdery_mildew
 
+    st.image("docs/company_logo.png", caption="Farmy & Foods")
+
     st.write("## Project Summary")
 
     st.info(
