@@ -94,22 +94,106 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Main Data Analysis and Machine Learning Libraries
 
-- Here, you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+### Languages
+
+- Python
+
+### Frameworks, Libraries & Programs Used
+
+#### Numpy
+
+- [NumPy](https://numpy.org/) was used for converting images into arrays to be fed to ML models. It is an open-source Python library used for working with arrays, matrices, and high-level mathematical functions.
+
+#### Pandas
+
+- [Pandas](https://pandas.pydata.org/) was used to manipulate and analyze the data. Pandas is a data manipulation and analysis library for Python, offering data structures and operations for manipulating numerical tables and time series data.
+
+#### Matplotlib
+
+- [Matplotlib](https://matplotlib.org/) was used to create charts and plots to visualize the data. It is a cross-platform, data visualization and graphical plotting library for Python.
+
+#### Seaborn
+
+- [Seaborn](https://seaborn.pydata.org/) was used for data visualization, built on top of Matplotlib, with additional high-level interfaces for drawing attractive and informative statistical graphics.
+
+#### Plotly
+
+- [Plotly](https://plotly.com/) was used to create interactive charts and plots. Plotly is a versatile graphing library that supports various chart types and provides interactivity features such as hover tooltips, zooming, and panning.
+
+#### Streamlit
+
+- [Streamlit](https://streamlit.io/) was used to create the project dashboard. It is an open-source app framework for building and sharing data-driven web applications quickly.
+
+#### Scikit-learn
+
+- [Scikit-learn](https://scikit-learn.org/stable/) was used as a base machine-learning library for the project. It is a powerful and easy-to-use library for machine learning in Python, offering tools for data preprocessing, feature extraction, model selection, and evaluation. It provided a consistent interface for implementing various machine learning algorithms and pipelines, facilitating the development and assessment of predictive models.
+
+#### Tensorflow
+
+- [Tensorflow](https://www.tensorflow.org/) was additional important ML library used for the project. It is an open-source deep learning framework developed by Google, offers comprehensive support for building and deploying machine learning models at scale. It provides low-level APIs for neural network development as well as high-level APIs through its Keras interface, enables to build and train complex neural network models efficiently.
+
+#### Keras
+
+- [Keras](https://keras.io/) was used as a high-level API for building neural networks for the project. It is a high-level, deep-learning API developed by Google for implementing neural networks. It maks the implementation of neural networks effortless and supports multiple backend neural network computations.
+
+#### PIL
+
+- [PIL](https://pypi.org/project/pillow/): Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
+
+#### GitHub
+
+- [GitHub](https://github.com/) was used as is an online software development platform. It's used for storing, tracking, and collaborating on software projects.
+
+#### Gitpod
+
+- [Gitpod](https://www.gitpod.io/) was used as workspace environment for the project. It is a platform for automated and standardized development environments.
+
+#### Kaggle
+
+- [Kaggle](https://www.kaggle.com/): Kaggle was used as the primary source of image dataset.Kaggle is a data science competition platform and online community for data scientists and machine learning practitioners under Google LLC. It enables data scientists and other developers to engage in running machine learning contests, write and share code, and to host datasets.
+
+#### Heroku
+
+- [Heroku](https://www.heroku.com/what): Heroku was used to deploy the web application for the project. It is a cloud platform that lets companies build, deliver, monitor and scale apps.
 
 ## Credits
+
+<details>
+<summary>
+Study and reference materials
+</summary>
+
+- https://docs.streamlit.io/1.13.0/develop/api-reference/text/st.code
+- https://docs.streamlit.io/develop/api-reference#streamlit.set_page_config
+- https://docs.streamlit.io/develop/api-reference/media/st.image
+- https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.bar.html
+- https://matplotlib.org/stable/users/explain/colors/colors.html#colors-def
+- https://seaborn.pydata.org/generated/seaborn.set_style.html#seaborn.set_style
+- https://www.geeksforgeeks.org/choose-optimal-number-of-epochs-to-train-a-neural-network-in-keras/
+- https://numpy.org/doc/stable/user/basics.creation.html
+- https://github.com/SerraKD/WalkthroughProject01
+- https://github.com/SerraKD/churnometer
+
+</details>
 
 ### Content
 
 - The powdery mildew information text for the Project summary page was taken from [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew).
+
 - The detailed explanation of powdery mildew disease taken from [Washington State University Tree Fruit](https://treefruit.wsu.edu/crop-protection/disease-management/cherry-powdery-mildew/#:~:text=Powdery%20mildew%20of%20sweet%20and,1).
+
 - The Malaria Detector project code has been used as the study and reference material - [Malaria Detector](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/).
+
 - The Churnometer project provided by Code Institute has been the code that was used to learn the concepts used in this project. -
 [Churnometer](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DDA101+2021_T4/courseware/bba260bd5cc14e998b0d7e9b305d50ec/c83c55ea9f6c4e11969591e1b99c6c35/).
+
 - Plant Disease Detection Using Deep learning by Anjaneya Teja Kalvakolanu was used as study material for better understanding of ML performance regarding to plant desease detection. - [Plant Disease Detection Using Deep learning](https://arxiv.org/pdf/2003.05379v1)
 
 ### Media
 
 - The images used in this project are from the cherry-leaves kaggle dataset provided by [CI cherry_leaves](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
+
+- The company logo was created with [Looka](https://looka.com/).
 
 ## Acknowledgements (optional)
 
