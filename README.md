@@ -25,24 +25,85 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-- ***Business Requirement 1:*** The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+### ***Business Requirement 1:***
 
-    > **Data Visualization**
+The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 
-        * The dashboard will display the mean and standard deviation images for healthy and powdery mildew-infected cherry leaves.
+> **Data Visualization**
 
-        * The contrast between an average healthy leaf and an average powdery mildew-infected leaf will be displayed.
+- The dashboard will display the mean and standard deviation images for healthy and powdery mildew-infected cherry leaves.
 
-        * An image montage of healthy and powdery mildew-infected leaves will be presented.
-- ***Business Requirement 2:*** The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+- The contrast between an average healthy leaf and an average powdery mildew-infected leaf will be displayed.
 
-    > **Classification**
+- An image montage of healthy and powdery mildew-infected leaves will be presented.
 
-        * Create a binary classifier ML model to predict whether a leaf is healthy or infected with powdery mildew. 
+### ***Business Requirement 2:***
 
-        * Evaluate the performance of the Ml model for loss and accuracy.
-        
-        * Create an option for users to generate and download a prediction report of uploadable images.
+The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+
+> **Classification**
+
+- Create a binary classifier ML model to predict whether a leaf is healthy or infected with powdery mildew. 
+
+- Evaluate the performance of the Ml model for loss and accuracy.
+
+- Create an option for users to generate and download a prediction report of uploadable images.
+
+## Cross Industry Standard Process for Data Mining (CRISP-DM)
+
+CRISP-DM was used while developing this project.
+
+![Responsive image](/docs/readme/crisp-dm.png)
+
+***1. Business understanding***
+
+Business case assessment is provided by Code Institute.
+
+> Business Requirement 1
+
+Study should include analysis on:
+
+- average images and variability images for each class (healthy or powdery mildew),
+- the differences between average healthy and average powdery mildew cherry leaves,
+- an image montage for each class
+
+> Business Requirement 2:
+
+- deliver an ML system that is capable of predicting whether a cherry leaf is healthy or contains powdery mildew
+
+***2. Data Understanding***
+
+The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves) is provided by Code Institute over 4k images of healthy and affected cherry leaves.
+
+- Data collection.
+
+- Retrieve data from the Kaggle dataset  and save as raw data.
+
+***3. Data Preparation***
+
+- Clean data, check and remove non image files
+- Split data into train validation and test set
+- Set Image shape
+- Average and variability of images per label
+- Load image shapes and labels in an array
+- Plot and save mean variability of images per label
+- Difference between average healthy and powdery mildew contained leaf
+- Image montage
+- Image data augmentation
+
+***4. Modelling***
+
+- Create CNN model
+- Fit created ML model with train set
+- Save model
+
+***4. Evaluation***
+
+- Plot model learning curve for model training loss and accuracy
+- Evaluate model on test set
+- Load random image to predict
+- Convert image to array and prepare for prediction.
+- Predict class probabilities and evaluate.
 
 ## ML Business Case
 
@@ -56,7 +117,7 @@ To save time in this process, the IT team suggested an ML system that detects in
     Clean the non image files, check avarage image size, and split the data to train, validation and test sets.
 - **Feature Extraction:**
 
-    Use CNN to pull meaningful features from the images.
+    Use CNN to pull significant features from the images.
 - **Model Selection:**
 
     Use CNN-based machine learning model for binary classification.
@@ -202,6 +263,8 @@ Study and reference materials
 - The company logo was created with [Looka](https://looka.com/).
 
 - Responsive mockup image created with [Am I responsive?](https://ui.dev/amiresponsive).
+
+- CRISP-DM image is taken from [Medium](https://medium.com/@yennhi95zz/6-the-deployment-phase-of-the-crisp-dm-methodology-a-detailed-discussion-f802a7cb9a0f).
 
 ## Acknowledgements (optional)
 
