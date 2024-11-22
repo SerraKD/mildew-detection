@@ -21,7 +21,30 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Hypothesis and how to validate?
 
-- List here your project hypothesis(es) and how you envision validating it (them).
+### ***Hypotheses***
+
+- There are visible pattern differences between healthy and infected cherry leaf images that can be used to differentiate between healthy and powdery mildew-affected leaves.
+
+- There are distinct color and nuanced shape differences between healthy and powdery mildew-infected cherry leaves.
+
+- A machine learning model can be developed using the provided image dataset to predict whether a leaf is infected with powdery mildew with minimum 97% acccuracy.
+
+### ***Validation***
+
+- The Image Montage shows the apparent difference between healthy and powdery mildew-infected leaves.
+
+![Image montage healthy leaves](/docs/readme/img-mont-healthy.png)
+![Image montage mildew leaves](/docs/readme/img-mont-mildew.png)
+
+- Average, Variability, and Difference Images confirmed the hypothesis by showing color differences within the center of each leaf image, yet there are no clear patterns to identify them by shape.
+
+![Average Healthy](/outputs/v1/avg_var_healthy.png)
+![Average Infected](/outputs/v1/avg_var_powdery_mildew.png)
+![Difference](/outputs/v1/avg_diff.png)
+
+- ML pipeline performance evaluation shows that it differentiates a healthy leaf from an infected leaf with 99% accuracy.
+
+![Performance Metrics](/docs/readme/ml-performance-img.png)
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
@@ -134,6 +157,18 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 - **Deployment:**
 
     Deploy the trained model into production and incorporate it into an application where users can upload leaf images, get predictions, and download prediction reports.
+
+### ***Model details***
+
+- CNN model is used for image processing and designed for binary image classification.
+- Sequential model arranges a sequence of layers in  neural network.
+- Model has 4 convolutional layers and a dense layer with 128 neurons.
+- Dropout layer and earlystopping is used to reduce the chance of overfitting the neural network.
+- The output layer has one neuron with a sigmoid as the activation function.
+- The loss function used is binary_crossentropy because it is a binary classification.
+- The optimizer used is adam.
+
+![Model Summary](/docs/readme/model-summary.png)
 
 ## Dashboard Design
 
