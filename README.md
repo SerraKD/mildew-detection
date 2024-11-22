@@ -7,6 +7,7 @@ The Mildew Detection application was created for the fictitious company Farmy & 
 ## Dataset Content
 
 - The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace.
+
 - The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
 
 ## Business Requirements
@@ -24,11 +25,54 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-- List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+- ***Business Requirement 1:*** The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+
+    > **Data Visualization**
+
+        * The dashboard will display the mean and standard deviation images for healthy and powdery mildew-infected cherry leaves.
+
+        * The contrast between an average healthy leaf and an average powdery mildew-infected leaf will be displayed.
+
+        * An image montage of healthy and powdery mildew-infected leaves will be presented.
+- ***Business Requirement 2:*** The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+
+    > **Classification**
+
+        * Create a binary classifier ML model to predict whether a leaf is healthy or infected with powdery mildew. 
+
+        * Evaluate the performance of the Ml model for loss and accuracy.
+        
+        * Create an option for users to generate and download a prediction report of uploadable images.
 
 ## ML Business Case
 
-- In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+***Using the given dataset of images, build a supervised, binary classification ML model to predict if a leaf is healthy or infected with powdery mildew.***
+
+- **Data Collection:**
+
+    Collect a image dataset of  healthy and powdery mildew-infected leaves.
+- **Data Preprocessing:**
+
+    Clean the non image files, check avarage image size, and split the data to train, validation and test sets.
+- **Feature Extraction:**
+
+    Use CNN to pull meaningful features from the images.
+- **Model Selection:**
+
+    Use CNN-based machine learning model for binary classification.
+- **Model Training:**
+
+    Train the model using the training set, and validate model performance with the validation set.
+- **Model Evaluation:**
+
+    Evaluate the trained model's performance with model learning curve and the validation set.
+- **Model Testing:**
+
+    Test the model's performance with different test datasets to evaluate its abstraction capability.
+
+- **Deployment:**
+
+    Deploy the trained model into production and incorporate it into an application where users can upload leaf images, get predictions, and download prediction reports.
 
 ## Dashboard Design
 
@@ -156,6 +200,8 @@ Study and reference materials
 - The images used in this project are from the cherry-leaves kaggle dataset provided by [CI cherry_leaves](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 
 - The company logo was created with [Looka](https://looka.com/).
+
+- Responsive mockup image created with [Am I responsive?](https://ui.dev/amiresponsive).
 
 ## Acknowledgements (optional)
 
