@@ -120,7 +120,7 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 - Fit created ML model with train set
 - Save model
 
-***4. Evaluation***
+***5. Evaluation***
 
 - Plot model learning curve for model training loss and accuracy
 - Evaluate model on test set
@@ -177,13 +177,13 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 
 ## Unfixed Bugs
 
-- You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+- No unfixed bugs.
 
 ## Deployment
 
 ### Heroku
 
-- The App live link is: `https://YOUR_APP_NAME.herokuapp.com/`
+- The App live link is: https://leaf-mildew-detection-93c6ae6d2d75.herokuapp.com/
 - Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 - The project was deployed to Heroku using the following steps.
 
@@ -193,6 +193,23 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 4. Select the branch you want to deploy, then click Deploy Branch.
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button Open App on the top of the page to access your App.
 6. If the slug size is too large, then add large files not required for the app to the .slugignore file.
+
+### Forking the Repository
+
+- To create a copy of the repository, follow below steps:
+
+1. Go the repository you want to fork.
+2. Click the 'Fork' button located at the top right corner of the page.
+
+### Cloning the Repository
+
+- To clone the repository to your local machine, proceed as follows:
+
+1. Go the repository you want to clone.
+2. Click the green '<> Code' button and select your preferred cloning option from the list. Copy the provided link.
+3. Open your terminal and navigate to the directory where you want to store the cloned repository.
+4. Execute the command 'git clone' followed by the URL you copied earlier.
+5. Press 'Enter' to create a local clone of the repository.
 
 ## Main Data Analysis and Machine Learning Libraries
 
@@ -244,7 +261,7 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 
 #### GitHub
 
-- [GitHub](https://github.com/) was used as is an online software development platform. It's used for storing, tracking, and collaborating on software projects.
+- [GitHub](https://github.com/) was used as an online software development platform. It's used for storing, tracking, and collaborating on software projects.
 
 #### Gitpod
 
@@ -293,7 +310,7 @@ Study and reference materials
 
 ### Media
 
-- The images used in this project are from the cherry-leaves kaggle dataset provided by [CI cherry_leaves](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
+- The images used in this project are from the cherry-leaves kaggle dataset provided by [CI cherry_leaves](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves).
 
 - The company logo was created with [Looka](https://looka.com/).
 
