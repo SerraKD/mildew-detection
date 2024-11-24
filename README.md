@@ -2,7 +2,39 @@
 
 The Mildew Detection application was created for the fictitious company Farmy & Foods, and uses ML technology to allow users to upload images of cherry leaves for analysis. It can predict whether a cherry leaf is healthy or infected with powdery mildew and provides a downloadable report summarizing the findings.
 
+**Deployed version [Mildew Detection in Cherry Leaves](https://leaf-mildew-detection-93c6ae6d2d75.herokuapp.com/)**
+
 ![Responsive image](/docs/readme/responsive-img.png)
+
+
+## Table of Contents
+
+- [Dataset Content](#dataset-content)
+- [Business Requirements](#business-requirements)
+- [Hypotheses and how to Validate](#hypotheses-and-how-to-validate)
+    - [Hypotheses](#hypotheses)
+    - [Validation](#validation)
+- [Rationale to Map Business Requirements](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations-and-ml-tasks)
+    - [Business Requirement 1](#business-requirement-1)
+    - [Business Requirement 2](#business-requirement-2)
+- [Cross Industry Standard Process for Data Mining (CRISP-DM)](#cross-industry-standard-process-for-data-mining-crisp-dm)
+- [ML Business Case](#ml-business-case)
+    - [Business Case Assessment](#business-case-assessment)
+    - [Actions to fulfill the business case](#actions-to-fulfill-the-business-case)
+    - [Model Details](#model-details)
+- [Dashboard Design](#dashboard-design)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+    - [Heroku](#heroku)
+    - [Forking the Repository](#forking-the-repository)
+    - [Cloning the Repository](#cloning-the-repository)
+- [Main Data Analysis and Machine Learning Libraries](#main-data-analysis-and-machine-learning-libraries)
+    - [Languages](#languages)
+    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+- [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+- [Acknowledgements](#acknowledgements)
 
 ## Dataset Content
 
@@ -19,7 +51,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 - 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 - 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
-## Hypothesis and how to validate?
+## Hypotheses and how to validate?
 
 ### ***Hypotheses***
 
@@ -176,6 +208,8 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 
     The client will not supply the market with a product of compromised quality.
 
+---
+
 ### ***Actions to fulfill the business case***
 
 > Using the dataset of images provided by client, build a supervised, binary classification ML model to predict if a leaf is healthy or infected with powdery mildew.
@@ -206,6 +240,8 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 
     Deploy the trained model into production and incorporate it into an application where users can upload leaf images, get predictions, and download prediction reports.
 
+---
+
 ### ***Model details***
 
 - CNN model is used for image processing and designed for binary image classification.
@@ -232,6 +268,8 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 
     </details>
 
+---
+
 2. ***Page 1: Project Summary***
 
 - Farmy & Foods Logo - Image
@@ -247,6 +285,8 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
     ![Navigation](docs/readme/page-proj-summary.png)
 
     </details>
+
+---
 
 3. ***Page 2: Leaf Visualizer***
 
@@ -270,15 +310,17 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
     - Create Montage button
     - The image montage of the selected label
 
-    <details>
+        <details>
 
-    <summary>Leaf Visualizer Page Image</summary>
+        <summary>Leaf Visualizer Page Image</summary>
 
-    ![Leaf Visualizer Page](docs/readme/page-visualizer-1.png)
+        ![Leaf Visualizer Page](docs/readme/page-visualizer-1.png)
 
-    ![Leaf Visualizer Page](docs/readme/page-visualizer-2.png)
+        ![Leaf Visualizer Page](docs/readme/page-visualizer-2.png)
 
-    </details>
+        </details>
+
+---
 
 4. ***Page 3: Powdery Mildew Detector***
 
@@ -303,6 +345,8 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 
     </details>
 
+---
+
 5. ***Page 4: Project Hypotheses and Validation***
 
 - Powdery Mildew disease detailed explanation - block of information
@@ -319,6 +363,8 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
     ![Project Hypotheses and Validation Page](docs/readme/page-hypothesis.png)
 
     </details>
+
+---
 
 6. ***Page 5: ML Performance Metrics***
 
@@ -341,6 +387,8 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
     ![ML Performance Metrics Page](docs/readme/page-ml-performance-2.png)
 
     </details>
+
+---
 
 ## Unfixed Bugs
 
@@ -485,6 +533,12 @@ Study and reference materials
 
 - CRISP-DM image is taken from [Medium](https://medium.com/@yennhi95zz/6-the-deployment-phase-of-the-crisp-dm-methodology-a-detailed-discussion-f802a7cb9a0f).
 
-## Acknowledgements (optional)
+## Acknowledgements
 
-- Thank the people who provided support throughout this project.
+- My mentor Precious Ijege for support and guidance.
+
+- Code Institute Slack Channel
+
+---
+
+**[Back to top](https://github.com/SerraKD/mildew-detection?tab=readme-ov-file#-mildew-detection-in-cherry-leaves-)**
