@@ -160,6 +160,10 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 - Convert image to array and prepare for prediction.
 - Predict class probabilities and evaluate.
 
+***6. Deployment***
+
+- Deploy the models into production environment.
+
 ## ML Business Case
 
 ### Business Case Assessment
