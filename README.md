@@ -220,8 +220,127 @@ The [Kaggle dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 
 ## Dashboard Design
 
-- List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-- Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+1. ***Navigation***
+
+- The navigation bar is accessible across all dashboard pages and is easy to use.
+
+    <details>
+
+    <summary>Navigation Image</summary>
+
+    ![Navigation](docs/readme/navigation.png)
+
+    </details>
+
+2. ***Page 1: Project Summary***
+
+- Farmy & Foods Logo - Image
+- Project Summary - block of information
+- Project Dataset - block of information
+- Bussines requirements - block of information
+- Link to the README file - block of information & hyperlink
+
+    <details>
+
+    <summary>Project Summary Page Image</summary>
+
+    ![Navigation](docs/readme/page-proj-summary.png)
+
+    </details>
+
+3. ***Page 2: Leaf Visualizer***
+
+- Business Requirement 1 - block of information
+
+- Checkbox1 - Difference between average and variability image
+    - A quick explanation of the data visualization result - block of information
+    - Applicable image - image
+
+- Checkbox2 - Differences between the average image of healthy and powdery mildew infected leaves
+
+    - A quick explanation of the data visualization result - block of information
+    - Another explanation of the data visualization result - block of information
+    - Applicable image - image
+
+- Checkbox3 - Image montage
+
+    - Instruction for the user to click the "Create Montage" button - block of information
+    - Image montage explanation - block of information
+    - Select box - where the user can choose a label to create a montage
+    - Create Montage button
+    - The image montage of the selected label
+
+    <details>
+
+    <summary>Leaf Visualizer Page Image</summary>
+
+    ![Leaf Visualizer Page](docs/readme/page-visualizer-1.png)
+
+    ![Leaf Visualizer Page](docs/readme/page-visualizer-2.png)
+
+    </details>
+
+4. ***Page 3: Powdery Mildew Detector***
+
+- Business Requirement 2 - block of information
+- Horizontal line
+- Live prediction info and hyperlink to the download images of cherry leaves - block of information
+- File uploader for users to upload cherry leaf images for  a diagnosis
+    - Image Name - information block
+    - Uploaded leaf sample - image
+    - Diagnosis on the leaf sample - block of information
+    - The diagnosis probability - barplot
+    - Analysis report table for all uploaded images - data frame
+    - Download report link
+
+    <details>
+
+    <summary>Powdery Mildew Detector Page Image</summary>
+
+    ![Powdery Mildew Detector Page](docs/readme/page-mildew-detector.png)
+
+    ![Powdery Mildew Detector Page](docs/readme/page-mildew-detector-2.png)
+
+    </details>
+
+5. ***Page 4: Project Hypotheses and Validation***
+
+- Powdery Mildew disease detailed explanation - block of information
+- Horizontal line
+- Hypotheses - block of information
+- Validation - block of information
+- Horizontal line
+- Business Requirements - Text
+
+    <details>
+
+    <summary>Project Hypotheses and Validation Page Image</summary>
+
+    ![Project Hypotheses and Validation Page](docs/readme/page-hypothesis.png)
+
+    </details>
+
+6. ***Page 5: ML Performance Metrics***
+
+- Average Image size in dataset - image
+- Average Image size in dataset - block of information
+- Horizontal line
+- Train, Validation and Test Set: Label Frequencies plot - image
+- Train, Validation and Test Set: Label Frequencies - block of information
+- Model History -  block of information
+- Model History: Accuracy and Loss Line Graph - image
+- Generalised Performance on Test Set - loss and accuracy performance metrics
+- Model accuracy percentage - Text
+
+    <details>
+
+    <summary>ML Performance Metrics Image</summary>
+
+    ![ML Performance Metrics Page](docs/readme/page-ml-performance.png)
+
+    ![ML Performance Metrics Page](docs/readme/page-ml-performance-2.png)
+
+    </details>
 
 ## Unfixed Bugs
 
